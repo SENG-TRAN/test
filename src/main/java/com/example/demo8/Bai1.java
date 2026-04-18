@@ -8,7 +8,7 @@ public class Bai1 {
         int sum = 0;
         for(int i : arr) {
             if (i>=1&&i<=1000){
-                sum+=i;
+                sum+=i;//sum = sum+i
             }else{
             throw new IllegalArgumentException("Ko duoc vuot nngoai vung hop le");
         }
